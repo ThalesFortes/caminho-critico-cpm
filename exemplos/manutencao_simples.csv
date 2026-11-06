@@ -1,0 +1,5 @@
+id,nome,duracao,predecessoras
+A,Desligar a maquina,2,
+B,Trocar a peca,3,A
+C,Pintar a estrutura,4,A
+D,Testar e religar,1,B;C
