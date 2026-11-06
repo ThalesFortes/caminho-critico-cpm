@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cpm-caminho-critico"
+version = "1.0.0"
+description = "Calculadora de Caminho Crítico (CPM) em Python puro, sem dependências."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Thales de Abreu Fortes da Silva", email = "thales_pro@outlook.com" }]
+keywords = ["cpm", "caminho-critico", "critical-path", "gestao-de-projetos", "scheduling"]
+dependencies = []
+
+[project.scripts]
+cpm = "cpm.cli:main"
+
+[tool.setuptools]
+packages = ["cpm"]
